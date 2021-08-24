@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title> Site Code</title>
+
+    </head>
+    <body>
+   
+   
+        <from id="el">
+        <label>Sitecode</label>
+        <input id="el" onclick="IN" class="IN" placeholder="sitecode" type="text"></input>
+        <button onclick="el()">submit</button>
+        
+        </from>
+ 
+    <script>
+     function inputValue(el) {
+	el.value = el.value.replace(/[IN +]/g, '');
+	el.value = 'IN' + el.value.toUpperCase();
+	}
+ </script>
+    </body>
+</html>
